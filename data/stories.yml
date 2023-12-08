@@ -1,0 +1,14 @@
+version: "3.1"
+
+stories:
+  - story: Greet and recommend music
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: recommend_music
+      - action: action_recommend_music_by_genre
+
+  - story: Specify artist and recommend music
+    steps:
+      - intent: specify_artist
+      - action: action_recommend_music_by_artist

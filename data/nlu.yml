@@ -1,0 +1,60 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: recommend_music
+    examples: |
+      - Can you recommend music in the [pop](genre) genre?
+      - I'm a fan of [rock](genre) music. Any recommendations?
+      - How about some [rap](genre) songs?
+
+  - intent: specify_artist
+    examples: |
+      - I like songs by [NF](artist).
+      - Any good tracks from [Billie Eilish](artist)?
+      - How about some tunes by [Dua Lipa](artist)?
+      - Recommend me songs by [Imagine Dragons](artist).
+      - Give me some music suggestions from [Adele](artist).
+
+  - regex: genre
+    examples: |
+      - pop
+      - rap
+      - rock
+
+  - regex: artist
+    examples: |
+      - Billie Eilish
+      - Dua Lipa
+      - NF
+      - Cardi B
+      - Imagine Dragons
+      - 5 Seconds of Summer

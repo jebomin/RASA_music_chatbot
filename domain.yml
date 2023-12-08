@@ -1,0 +1,41 @@
+version: "3.1"
+
+slots:
+  genre:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: genre
+
+  artist:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: artist
+
+intents:
+  - greet
+  - recommend_music
+  - specify_artist
+  - goodbye
+
+entities:
+  - genre
+  - artist
+
+actions:
+  - utter_greet
+  - action_recommend_music_by_genre
+  - action_recommend_music_by_artist
+  - utter_goodbye
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you with music today?"
+
+  utter_goodbye:
+    - text: "Goodbye! If you have more questions, feel free to ask."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

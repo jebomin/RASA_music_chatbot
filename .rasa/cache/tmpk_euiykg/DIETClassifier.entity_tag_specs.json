@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-artist",
+      "2": "I-artist",
+      "3": "L-artist",
+      "4": "U-artist",
+      "5": "B-genre",
+      "6": "I-genre",
+      "7": "L-genre",
+      "8": "U-genre",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-artist": 1,
+      "I-artist": 2,
+      "L-artist": 3,
+      "U-artist": 4,
+      "B-genre": 5,
+      "I-genre": 6,
+      "L-genre": 7,
+      "U-genre": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
