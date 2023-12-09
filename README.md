@@ -24,23 +24,23 @@ rasa shell
 ```
 
 ## 📷 결과화면
-### 기본 데이터 베이스
+### 🗂️기본 데이터 베이스
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/c431f4bf-adde-49ba-b13f-eb32b0b45ee6"><br/>
-### 장르 별 음악추천
+### 1. 장르 별 음악추천
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/3e90768b-fdb7-4901-936c-b2ec7a198b0e"><br/>
-### 가수 별 음악추천
+### 2. 가수 별 음악추천
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/6960732e-2bd7-4c8b-acc8-92bf31781ad0"><br/>
-### 가사 별 음악추천
+### 3. 가사 별 음악추천
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/078d5f51-0e11-4251-8b03-cdcbe53396a7"><br/>
-### 기분 별 음악추천
+### 4. 기분 별 음악추천
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/83b3a3d3-5489-49d7-9312-dcadcd8b5e54"><br/>
-### 사용자가 음악 추천하고 해당 내용이 데이터베이스에 잘 반영되었는지 확인
-#### 1) 장르를 물어봤을 때
+### 5. 사용자가 음악 추천하고 해당 내용이 데이터베이스에 잘 반영되었는지 확인
+#### 5-1) 장르를 물어봤을 때
 <b>✅결과 창</b><br/>
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/a627504a-7fa2-4636-99ed-ed20000b068b"><br/>
 <b>✅바뀐 데이터베이스</b><br/>
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/b5b7dcd2-3b71-4213-80d4-264af06f145d"><br/>
-#### 2) 가수를 물어봤을 때
+#### 5-2) 가수를 물어봤을 때
 <b>✅결과 창</b><br/>
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/fcd84dc6-2b7c-43c8-b151-0e0fa41a937f"><br/>
 <b>✅바뀐 데이터베이스</b><br/>
