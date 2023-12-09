@@ -25,7 +25,7 @@ rasa shell
 
 ## 📷 결과화면
 ### 기본 데이터 베이스
-<img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/83b3a3d3-5489-49d7-9312-dcadcd8b5e54"><br/>
+<img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/c431f4bf-adde-49ba-b13f-eb32b0b45ee6"><br/>
 ### 장르 별 음악추천
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/3e90768b-fdb7-4901-936c-b2ec7a198b0e"><br/>
 ### 가수 별 음악추천
