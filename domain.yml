@@ -13,20 +13,59 @@ slots:
       - type: from_entity
         entity: artist
 
+  lyric:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: lyric
+
+  feeling:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: feeling
+
+  title:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: title
+
 intents:
   - greet
-  - recommend_music
+  - specify_genre
   - specify_artist
+  - specify_lyric
+  - specify_feeling
+  - bot_challenge
+  - share_music
+  - provide_genre
+  - provide_artist
+  - provide_title
+  - provide_lyric
+  - provide_feeling
   - goodbye
 
 entities:
   - genre
   - artist
+  - lyric
+  - feeling
+  - title
 
 actions:
   - utter_greet
   - action_recommend_music_by_genre
   - action_recommend_music_by_artist
+  - action_recommend_music_by_lyric
+  - action_recommend_music_by_feeling
+  - utter_bot_challenge
+  - utter_ask_genre
+  - utter_ask_artitst
+  - utter_ask_title
+  - utter_ask_lyric
+  - utter_ask_feeling
+  - action_save_music
   - utter_goodbye
 
 responses:
@@ -35,6 +74,24 @@ responses:
 
   utter_goodbye:
     - text: "Goodbye! If you have more questions, feel free to ask."
+
+  utter_bot_challenge:
+    - text: "Oh, it's great that you have more information than I do! Then could you recommend some music?"
+
+  utter_ask_genre:
+    - text: "Sure, Please provide me with information on the genre."
+
+  utter_ask_artist:
+    - text: "Please provide me with information about artist."
+
+  utter_ask_title:
+    - text: "Please provide me with information about the title."
+
+  utter_ask_lyric:
+    - text: "Please provide a line of lyrics that you think is the highlight."
+
+  utter_ask_feeling:
+    - text: "Is the music appropriate to listen to when you're happy or when you're unhappy?"
 
 session_config:
   session_expiration_time: 60

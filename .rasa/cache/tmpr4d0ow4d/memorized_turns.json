@@ -1,0 +1,27 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbM4JzM7NT49Na8otbY2FgDTfh7D": "utter_dislike_genre",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbM4JzM7NT49Na8otZaAWaUlJalF8ahaCJkYCwC8eT5R": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbM4JzM7NT49Na8otZaAWaUlJalF8ahaKDORgOuKC1KTM9MqYWbFAgCNDVtx": "action_recommend_music_by_genre",
+    "eJyljlEKgzAQRK+SA/QEuUopi41jWTSr7G4ECd69AfvTQpHSv3kw85hr3S+hLoqVuuQ8Swz1CCRdRgwvmNgc0rrFoK3D0tBj6NkmHkEPiGI/cRV3KL1P/jOevLMFiYftJ5cizTlDesrFONF9+/b0w357AtJdf+Y=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohI7GgoLK2NhYA6fobkA==": "utter_happy",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohI7GgoLKWgBmlJSWpRfEQpbhMiAUARyQ0uA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhuCA1OTOtMj4tNTUnMy+9tjYWABKQH5o=": "action_recommend_music_by_feeling",
+    "eJyNjVEKgCAQBa+yB+gEXiViMXvFgq6hFoR094SCPuvvDQzz+np2VNeEna0rEtVQvQerDTD0gJdcoM3dMlJzRBsWQ3mFk/ngGfCiy/mvluBiCNCJw5bF8fgGvh+GC3HgRaE=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhuCA1OTOtMj6xqASoorY2FgDz5R9X": "action_recommend_music_by_artist",
+    "eJyNjNEJgDAMBVfpAE7QVURCrRECNi1NKkhxdwOKv/r3Du7d2M/B9VJxhxCVMnvX7wEcEnr3wEaiyOY2wWoOsaF6JwUjrQeEqmac/2IVY04JeYHUhCLM7/+zP1205ETY": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhNC8jsaCgsrY2FgAipxxz": "utter_unhappy",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhNC8jsaCgspaAKaUlJalF8TDFuE2JBQCZFDdh": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbM4JzM7NT6xqASoorY2FgDzJh9J": "utter_dislike_artist",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbM4JzM7NT6xqASoopaAYaUlJalF8Wh6CJoZCwCLtj/j": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbM4JzM7NT6xqASoopaAYaUlJalF8Wh6KDSTgAOLC1KTM9Mq4YbFAgAxmV2J": "action_recommend_music_by_artist",
+    "eJyljtEJwzAMRFfxAJ3Aq4QiXOcKorESJLkQTHavof0KhFDydwfvHje07RbaonhTys6zxNC+gSQVxPArE5tDOlsN2hmWXj2GkW3iFyipd2I7kVV3KO02F50nB21B5uf6n0yR51IgI5VqnOmxHp7d++8fRrGDCg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjlEKgCAQBa/iATqBV4kQkZcs1CbrGoR49wT7F/p7A8Pw1toWU5Pgdj4oXWxNHcOxP2HNBwdlBXe3ZEh3iDuqNVEAbZNGUYW4of4rTF7khED74yJY0Nr2AjAmUbc=": "action_recommend_music_by_genre",
+    "eJydjlEKwyAQRK/iAXoCr1LCkpqJLNRNWNdCEO9eIc23JX8z8OYxz9oeru6KD83BeBPv6hlI5gTvfuXN2SCdLRnaGZZezbuogLWBo5hB6UTvGQYv8o7A60ERovjTpQhbSpCFUskc6HXNR/bpC+Ludiw=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhuCA1OTOtMj6nsigzubY2FgDUxh7j": "action_recommend_music_by_lyric",
+    "eJyNjEsKgDAMBa+SA3iCXkUkaIwQaNPSj1BK725BXevuDcybufUJWoh84kpZvBpo90BdHRt4wErKrMMtieNwRAdmAykwyVHR1ijU/7Uik3eOdUdXkhBu7/2rvlzgBEN8": "action_listen"
+  }
+}

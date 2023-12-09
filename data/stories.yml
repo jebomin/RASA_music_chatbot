@@ -1,14 +1,81 @@
 version: "3.1"
 
 stories:
-  - story: Greet and recommend music
+  - story: Specify genre and recommend music
     steps:
       - intent: greet
       - action: utter_greet
-      - intent: recommend_music
+      - intent: specify_genre
       - action: action_recommend_music_by_genre
 
   - story: Specify artist and recommend music
     steps:
       - intent: specify_artist
       - action: action_recommend_music_by_artist
+
+  - story: Specify lyric and recommend music
+    steps:
+      - intent: specify_lyric
+      - action: action_recommend_music_by_lyric
+
+  - story: Specify feeling and recommend music
+    steps:
+      - intent: specify_feeling
+      - action: action_recommend_music_by_feeling
+
+  - story: bot challenge with the number of music you know for a specify genre
+    steps:
+      - intent: specify_genre
+      - action: action_recommend_music_by_genre
+      - intent: bot_challenge
+      - action: utter_bot_challenge
+      - intent: share_music
+      - intent: provide_genre
+        entities:
+          - genre: pop
+      - action: utter_ask_artist
+      - intent: provide_artist
+        entities:
+          - artist: Billie Eilish
+      - action: utter_ask_title
+      - intent: provide_title
+        entities:
+          - title: Bad Guy
+      - action: utter_ask_lyric
+      - intent: provide_lyric
+        entities:
+          - lyric: White shirt
+      - action: utter_ask_feeling
+      - intent: provide_feeling
+        entities:
+          - feeling: happy
+      - action: action_save_music
+
+  - story: bot challenge with the number of music you know for a specify artist
+    steps:
+      - intent: specify_artist
+      - action: action_recommend_music_by_artist
+      - intent: bot_challenge
+      - action: utter_bot_challenge
+      - intent: share_music
+      - action: utter_ask_genre
+      - intent: provide_genre
+        entities:
+          - genre: pop
+      - action: utter_ask_artist
+      - intent: provide_artist
+        entities:
+          - artist: Billie Eilish
+      - action: utter_ask_title
+      - intent: provide_title
+        entities:
+          - title: Bad Guy
+      - action: utter_ask_lyric
+      - intent: provide_lyric
+        entities:
+          - lyric: White shirt
+      - action: utter_ask_feeling
+      - intent: provide_feeling
+        entities:
+          - feeling: happy
+      - action: action_save_music

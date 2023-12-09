@@ -30,7 +30,7 @@ nlu:
       - bye bye
       - see you later
 
-  - intent: recommend_music
+  - intent: specify_genre
     examples: |
       - Can you recommend music in the [pop](genre) genre?
       - I'm a fan of [rock](genre) music. Any recommendations?
@@ -43,6 +43,68 @@ nlu:
       - How about some tunes by [Dua Lipa](artist)?
       - Recommend me songs by [Imagine Dragons](artist).
       - Give me some music suggestions from [Adele](artist).
+
+  - intent: specify_lyric
+    examples: |
+      - Can you recommend a song with the lyrics [White shirt](lyric)?
+      - I'm looking for a track that goes like [Do not pick up the phone](lyric).
+      - Any songs with the lyrics [I just wanna feel something](lyric)?
+      - Recommend me a song that says [Hey Nate](lyric).
+
+  - intent: specify_feeling
+    examples: |
+      - Can you recommend some [happy](feeling) songs?
+      - I need music to cheer me up. Any suggestions for [happy](feeling) songs?
+      - Recommend me some [unhappy](feeling) tracks.
+      - Any recommendations for songs that suit an [unhappy](feeling) mood?
+
+  - intent: bot_challenge
+    examples: |
+      - I bet I know more about music than you. 
+      - Are you sure you know more about music than I do?
+      - I think I have a better knowledge of music.
+      - I'm pretty confident that I know more about music. What do you say?
+
+  - intent: share_music
+    examples: |
+      - Sure, I also want to share a great song with you!
+      - Okay, I'd like to recommend a song.
+      - Good, I tell some music for you.
+
+  - intent: provide_genre
+    examples: |
+      - [pop](genre)
+      - [rock](genre)
+      - [rap](genre)
+
+  - intent: provide_artist
+    examples: |
+      - [Billie Eilish](artist)
+      - [Dua Lipa](artist)
+      - [NF](artist)
+      - [Cardi B](artist)
+      - [Imagine Dragons](artist)
+      - [5 Seconds of Summer](artist)
+
+  - intent: provide_title
+    examples: |
+      - [Hope](title)
+      - [WAP](title)
+      - [Up](title)
+      - [When I Grow Up](title)
+
+  - intent: provide_lyric
+    examples: |
+      - [White shirt](lyric)
+      - [Do not pick up the phone](lyric)
+      - [Whores in this house](lyric)
+      - [Say you want me](lyric)
+      - [You know what I wanna be](lyric)
+
+  - intent: provide_feeling
+    examples: |
+      - [happy](feeling)
+      - [unhappy](feeling)
 
   - regex: genre
     examples: |
@@ -58,3 +120,22 @@ nlu:
       - Cardi B
       - Imagine Dragons
       - 5 Seconds of Summer
+
+  - regex: lyric
+    examples: |
+      - White shirt
+      - I have been watching
+      - Do not pick up the phone
+      - Do not show up
+      - Hey Nate
+      - I just wanna feel something
+      - Whores in this house
+      - Hop off the jet
+      - First things first
+      - I am radioactive
+      - You are the only thing I know
+
+  - regex: feeling
+    examples: |
+      - happy
+      - unhappy

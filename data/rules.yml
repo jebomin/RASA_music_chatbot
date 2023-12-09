@@ -1,12 +1,32 @@
 version: "3.1"
 
 rules:
+  - rule: Greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
   - rule: Recommend music based on genre
     steps:
-      - intent: recommend_music
+      - intent: specify_genre
       - action: action_recommend_music_by_genre
 
   - rule: Recommend music based on artist
     steps:
       - intent: specify_artist
       - action: action_recommend_music_by_artist
+
+  - rule: Recommend music based on lyric
+    steps:
+      - intent: specify_lyric
+      - action: action_recommend_music_by_lyric
+
+  - rule: Recommend music based on feeling
+    steps:
+      - intent: specify_feeling
+      - action: action_recommend_music_by_feeling
