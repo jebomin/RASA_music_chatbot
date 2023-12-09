@@ -34,7 +34,7 @@ rasa shell
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/078d5f51-0e11-4251-8b03-cdcbe53396a7"><br/>
 ### 기분 별 음악추천
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/83b3a3d3-5489-49d7-9312-dcadcd8b5e54"><br/>
-### 사용자가 음악 추천하고 이 내용이 데이터베이스에 잘 반영되었는지 확인
+### 사용자가 음악 추천하고 해당 내용이 데이터베이스에 잘 반영되었는지 확인
 #### 1) 장르를 물어봤을 때
 <b>✅결과 창</b><br/>
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/a627504a-7fa2-4636-99ed-ed20000b068b"><br/>
