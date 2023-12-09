@@ -44,6 +44,9 @@ intents:
   - provide_title
   - provide_lyric
   - provide_feeling
+  - ask_tmi
+  - prove_human
+  - swear
   - goodbye
 
 entities:
@@ -66,6 +69,9 @@ actions:
   - utter_ask_lyric
   - utter_ask_feeling
   - action_save_music
+  - utter_ask_tmi
+  - utter_prove_human
+  - utter_swear
   - utter_goodbye
 
 responses:
@@ -92,6 +98,15 @@ responses:
 
   utter_ask_feeling:
     - text: "Is the music appropriate to listen to when you're happy or when you're unhappy?"
+
+  utter_ask_tmi:
+    - text: "I'm actually a person!"
+
+  utter_prove_human:
+    - text: "I don't know a lot of music. If I am a robot, I would know many kinds of music"
+
+  utter_swear:
+    - text: "Don't swear me. I understand everything"
 
 session_config:
   session_expiration_time: 60

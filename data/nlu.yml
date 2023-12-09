@@ -131,6 +131,28 @@ nlu:
       - [happy](feeling)
       - [unhappy](feeling)
 
+  - intent: ask_tmi
+    examples: |
+      - Tell me something interesting about yourself.
+      - Share a funny fact.
+      - Give me some tmi!
+      - Tell me a fun fact about you.
+      - Share an interesting something.
+
+  - intent: prove_human
+    examples: |
+      - Are you really a human?
+      - Prove that you're not a robot
+      - Convince me you're a human
+      - Give me a human-like response
+      - Can you show me you're not an AI?
+
+  - intent: swear
+    examples: |
+      - I think it's just that you're a stupid robot.
+      - Maybe it's because the amount of database is small, idiot.
+      - Stop joking bitch.
+
   - regex: genre
     examples: |
       - pop

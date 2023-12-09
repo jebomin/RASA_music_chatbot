@@ -80,3 +80,12 @@ stories:
         entities:
           - feeling: happy
       - action: action_save_music
+
+  - story: TMI story
+    steps:
+      - intent: ask_tmi
+      - action: utter_ask_tmi
+      - intent: prove_human
+      - action: utter_prove_human
+      - intent: swear
+      - action: utter_swear
