@@ -42,6 +42,6 @@ rasa shell
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/b5b7dcd2-3b71-4213-80d4-264af06f145d"><br/>
 #### 2) 가수를 물어봤을 때
 <b>✅결과 창</b><br/>
-<img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/a4231a4e-46ae-4650-ac4c-26ccb6b698e7"><br/>
+<img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/fcd84dc6-2b7c-43c8-b151-0e0fa41a937f"><br/>
 <b>✅바뀐 데이터베이스</b><br/>
 <img src="https://github.com/jebomin/RASA_music_chatbot/assets/42407430/e655b0dd-95e8-4dea-8e00-da9da1fc476d"><br/>
