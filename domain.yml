@@ -79,7 +79,7 @@ responses:
     - text: "Oh, it's great that you have more information than I do! Then could you recommend some music?"
 
   utter_ask_genre:
-    - text: "Sure, Please provide me with information on the genre."
+    - text: "Please provide me with information on the genre."
 
   utter_ask_artist:
     - text: "Please provide me with information about artist."

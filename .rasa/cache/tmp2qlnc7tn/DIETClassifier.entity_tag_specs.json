@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-artist",
+      "2": "I-artist",
+      "3": "L-artist",
+      "4": "U-artist",
+      "5": "B-feeling",
+      "6": "I-feeling",
+      "7": "L-feeling",
+      "8": "U-feeling",
+      "9": "B-genre",
+      "10": "I-genre",
+      "11": "L-genre",
+      "12": "U-genre",
+      "13": "B-lyric",
+      "14": "I-lyric",
+      "15": "L-lyric",
+      "16": "U-lyric",
+      "17": "B-title",
+      "18": "I-title",
+      "19": "L-title",
+      "20": "U-title",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-artist": 1,
+      "I-artist": 2,
+      "L-artist": 3,
+      "U-artist": 4,
+      "B-feeling": 5,
+      "I-feeling": 6,
+      "L-feeling": 7,
+      "U-feeling": 8,
+      "B-genre": 9,
+      "I-genre": 10,
+      "L-genre": 11,
+      "U-genre": 12,
+      "B-lyric": 13,
+      "I-lyric": 14,
+      "L-lyric": 15,
+      "U-lyric": 16,
+      "B-title": 17,
+      "I-title": 18,
+      "L-title": 19,
+      "U-title": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

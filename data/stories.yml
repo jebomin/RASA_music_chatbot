@@ -30,6 +30,7 @@ stories:
       - intent: bot_challenge
       - action: utter_bot_challenge
       - intent: share_music
+      - action: utter_ask_genre
       - intent: provide_genre
         entities:
           - genre: pop

@@ -43,13 +43,28 @@ nlu:
       - How about some tunes by [Dua Lipa](artist)?
       - Recommend me songs by [Imagine Dragons](artist).
       - Give me some music suggestions from [Adele](artist).
+      - I'm in the mood for music from [5 Seconds of Summer](artist).
 
   - intent: specify_lyric
     examples: |
       - Can you recommend a song with the lyrics [White shirt](lyric)?
-      - I'm looking for a track that goes like [Do not pick up the phone](lyric).
-      - Any songs with the lyrics [I just wanna feel something](lyric)?
-      - Recommend me a song that says [Hey Nate](lyric).
+      - I'm looking for a track that goes like [I have been watching](lyric).
+      - Any songs with the lyrics [Do not pick up the phone](lyric)?
+      - Recommend me a song that says [Do not show up](lyric).
+      - Looking for a song that goes [Hey Nate](lyric).
+      - Any recommendations for a track with [I just wanna feel something](lyric)?
+      - Can you suggest a song that has the lyrics [Whores in this house](lyric)?
+      - I'm searching for a song with [Hop off the jet](lyric).
+      - Know any tracks that say [First things first](lyric)?
+      - Recommend me a song with the lyrics [I am radioactive](lyric).
+      - Looking for a track that goes like [You are the only thing I know](lyric).
+      - Any songs with the lyrics [Say you want me](lyric)?
+      - Suggest a song that has the lyrics [You know what I wanna be](lyric).
+      - Any suggestions for a song with the lyrics [So save it](lyric)?
+      - Recommend me a track that goes like [What do you want from me](lyric).
+      - Looking for a song that says [I do not dance now](lyric).
+      - Can you suggest a track with [lightning and the thunder](lyric)?
+      - How about a song that has the lyrics [Is it easier to stay](lyric)?
 
   - intent: specify_feeling
     examples: |
@@ -92,6 +107,11 @@ nlu:
       - [WAP](title)
       - [Up](title)
       - [When I Grow Up](title)
+      - [IDGAF](title)
+      - [Bury A Friend](title)
+      - [Bodak Yellow](title)
+      - [Thunder](title)
+      - [Easier](title)
 
   - intent: provide_lyric
     examples: |
@@ -100,6 +120,11 @@ nlu:
       - [Whores in this house](lyric)
       - [Say you want me](lyric)
       - [You know what I wanna be](lyric)
+      - [So save it](lyric)
+      - [What do you want from me](lyric)
+      - [I do not dance now](lyric)
+      - [lightning and the thunder](lyric)
+      - [Is it easier to stay](lyric)
 
   - intent: provide_feeling
     examples: |
@@ -134,6 +159,8 @@ nlu:
       - First things first
       - I am radioactive
       - You are the only thing I know
+      - Say you want me
+      - You know what I wanna be
 
   - regex: feeling
     examples: |

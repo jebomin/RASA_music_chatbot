@@ -36,7 +36,7 @@ class ActionRecommendMusicByGenre(Action):
         if recommended_music:
             dispatcher.utter_message(f"Here are some recommended songs in the {genre} genre: {', '.join(recommended_music)}")
         else:
-            dispatcher.utter_message(f"Sorry, I couldn't find any songs in the {genre} genre.")
+            dispatcher.utter_message(f"Sorry, I couldn't find any songs in that genre.")
 
         # 데이터베이스 연결 해제
         conn.close()
@@ -77,7 +77,7 @@ class ActionRecommendMusicByArtist(Action):
         if recommended_music:
             dispatcher.utter_message(f"Here are some recommended songs by {artist}: {', '.join(recommended_music)}")
         else:
-            dispatcher.utter_message(f"Sorry, I couldn't find any songs by {artist}.")
+            dispatcher.utter_message(f"Sorry, I couldn't find any songs by that artist")
 
         # 데이터베이스 연결 해제
         conn.close()
@@ -159,7 +159,7 @@ class ActionRecommendMusicByFeeling(Action):
         if recommended_music:
             dispatcher.utter_message(f"These songs that's perfect for {feeling} mood : {', '.join(recommended_music)}")
         else:
-            dispatcher.utter_message(f"Sorry, I couldn't find any songs by {feeling} mood.")
+            dispatcher.utter_message(f"Sorry, I couldn't find any songs by that mood.")
 
         # 데이터베이스 연결 해제
         conn.close()

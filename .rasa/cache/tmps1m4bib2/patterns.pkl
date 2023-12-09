@@ -1,0 +1,98 @@
+[
+  {
+    "name": "artist",
+    "pattern": "5 Seconds of Summer"
+  },
+  {
+    "name": "artist",
+    "pattern": "Billie Eilish"
+  },
+  {
+    "name": "artist",
+    "pattern": "Cardi B"
+  },
+  {
+    "name": "artist",
+    "pattern": "Dua Lipa"
+  },
+  {
+    "name": "artist",
+    "pattern": "Imagine Dragons"
+  },
+  {
+    "name": "artist",
+    "pattern": "NF"
+  },
+  {
+    "name": "feeling",
+    "pattern": "happy"
+  },
+  {
+    "name": "feeling",
+    "pattern": "unhappy"
+  },
+  {
+    "name": "genre",
+    "pattern": "pop"
+  },
+  {
+    "name": "genre",
+    "pattern": "rap"
+  },
+  {
+    "name": "genre",
+    "pattern": "rock"
+  },
+  {
+    "name": "lyric",
+    "pattern": "Do not pick up the phone"
+  },
+  {
+    "name": "lyric",
+    "pattern": "Do not show up"
+  },
+  {
+    "name": "lyric",
+    "pattern": "First things first"
+  },
+  {
+    "name": "lyric",
+    "pattern": "Hey Nate"
+  },
+  {
+    "name": "lyric",
+    "pattern": "Hop off the jet"
+  },
+  {
+    "name": "lyric",
+    "pattern": "I am radioactive"
+  },
+  {
+    "name": "lyric",
+    "pattern": "I have been watching"
+  },
+  {
+    "name": "lyric",
+    "pattern": "I just wanna feel something"
+  },
+  {
+    "name": "lyric",
+    "pattern": "Say you want me"
+  },
+  {
+    "name": "lyric",
+    "pattern": "White shirt"
+  },
+  {
+    "name": "lyric",
+    "pattern": "Whores in this house"
+  },
+  {
+    "name": "lyric",
+    "pattern": "You are the only thing I know"
+  },
+  {
+    "name": "lyric",
+    "pattern": "You know what I wanna be"
+  }
+]
