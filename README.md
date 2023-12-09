@@ -6,7 +6,7 @@
 2023.11.13~2023.12.09
 
 ## ⚙ 기술 스택
-
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src="https://img.shields.io/badge/Rasa-5A17EE?style=for-the-badge&logo=Rasa&logoColor=white">
 
 ## ▶️ 실행 방법
 ### 1. 필요한 api 설치
