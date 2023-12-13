@@ -18,7 +18,7 @@ pip install rasa==3.6.4
 ### 2. 실행
 visual studio code에서 해당 파일을 다운로드 받은 후 터미널에 다음 명령어 입력</br>
 ```bash
-ran run actions --port 6000
+rasa run actions --port 6000
 rasa train
 rasa shell
 ```
